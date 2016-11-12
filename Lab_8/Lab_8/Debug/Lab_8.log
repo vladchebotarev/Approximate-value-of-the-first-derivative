@@ -1,0 +1,46 @@
+﻿Сборка начата 30.05.2016 10:55:37.
+     1>Проект "C:\Users\Lenovo_500_i7\Desktop\Папка есть же бля\Metody Obliczeniowe\Lab_8(Przyb_wartosci_piewszych_pochodnych)\Lab_8\Lab_8\Lab_8.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Lab_8.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Lab_8.cpp
+         Lab_8.cpp
+     1>c:\users\lenovo_500_i7\desktop\папка есть же бля\metody obliczeniowe\lab_8(przyb_wartosci_piewszych_pochodnych)\lab_8\lab_8\lab_8.cpp(56): warning C4244: инициализация: преобразование "const long double" в "float", возможна потеря данных
+                 c:\users\lenovo_500_i7\desktop\папка есть же бля\metody obliczeniowe\lab_8(przyb_wartosci_piewszych_pochodnych)\lab_8\lab_8\lab_8.cpp(146): см. ссылку на создание экземпляров функции шаблон при компиляции "void obliczenia<float>(T *,T **)"
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\lenovo_500_i7\desktop\папка есть же бля\metody obliczeniowe\lab_8(przyb_wartosci_piewszych_pochodnych)\lab_8\lab_8\lab_8.cpp(57): warning C4244: инициализация: преобразование "const long double" в "float", возможна потеря данных
+     1>c:\users\lenovo_500_i7\desktop\папка есть же бля\metody obliczeniowe\lab_8(przyb_wartosci_piewszych_pochodnych)\lab_8\lab_8\lab_8.cpp(58): warning C4305: инициализация: усечение из "double" к "float"
+     1>c:\users\lenovo_500_i7\desktop\папка есть же бля\metody obliczeniowe\lab_8(przyb_wartosci_piewszych_pochodnych)\lab_8\lab_8\lab_8.cpp(74): warning C4305: *=: усечение из "double" к "float"
+     1>c:\users\lenovo_500_i7\desktop\папка есть же бля\metody obliczeniowe\lab_8(przyb_wartosci_piewszych_pochodnych)\lab_8\lab_8\lab_8.cpp(41): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+                 c:\users\lenovo_500_i7\desktop\папка есть же бля\metody obliczeniowe\lab_8(przyb_wartosci_piewszych_pochodnych)\lab_8\lab_8\lab_8.cpp(65): см. ссылку на создание экземпляров функции шаблон при компиляции "T roznicaProgresywnaTrzypunktowa<T>(T,T)"
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\lenovo_500_i7\desktop\папка есть же бля\metody obliczeniowe\lab_8(przyb_wartosci_piewszych_pochodnych)\lab_8\lab_8\lab_8.cpp(146): см. ссылку на создание экземпляров функции шаблон при компиляции "void obliczenia<float>(T *,T **)"
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\lenovo_500_i7\desktop\папка есть же бля\metody obliczeniowe\lab_8(przyb_wartosci_piewszych_pochodnych)\lab_8\lab_8\lab_8.cpp(29): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+                 c:\users\lenovo_500_i7\desktop\папка есть же бля\metody obliczeniowe\lab_8(przyb_wartosci_piewszych_pochodnych)\lab_8\lab_8\lab_8.cpp(68): см. ссылку на создание экземпляров функции шаблон при компиляции "T roznicaCentralna<T>(T,T)"
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\lenovo_500_i7\desktop\папка есть же бля\metody obliczeniowe\lab_8(przyb_wartosci_piewszych_pochodnych)\lab_8\lab_8\lab_8.cpp(47): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+                 c:\users\lenovo_500_i7\desktop\папка есть же бля\metody obliczeniowe\lab_8(przyb_wartosci_piewszych_pochodnych)\lab_8\lab_8\lab_8.cpp(72): см. ссылку на создание экземпляров функции шаблон при компиляции "T roznicaWstecznaTrzypunktowa<T>(T,T)"
+                 with
+                 [
+                     T=float
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lenovo_500_i7\Desktop\Папка есть же бля\Metody Obliczeniowe\Lab_8(Przyb_wartosci_piewszych_pochodnych)\Lab_8\Debug\Lab_8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lenovo_500_i7\Desktop\Папка есть же бля\Metody Obliczeniowe\Lab_8(Przyb_wartosci_piewszych_pochodnych)\Lab_8\Debug\Lab_8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lenovo_500_i7\Desktop\Папка есть же бля\Metody Obliczeniowe\Lab_8(Przyb_wartosci_piewszych_pochodnych)\Lab_8\Debug\Lab_8.lib" /MACHINE:X86 Debug\Lab_8.obj
+         Debug\stdafx.obj
+         Lab_8.vcxproj -> C:\Users\Lenovo_500_i7\Desktop\Папка есть же бля\Metody Obliczeniowe\Lab_8(Przyb_wartosci_piewszych_pochodnych)\Lab_8\Debug\Lab_8.exe
+     1>Сборка проекта "C:\Users\Lenovo_500_i7\Desktop\Папка есть же бля\Metody Obliczeniowe\Lab_8(Przyb_wartosci_piewszych_pochodnych)\Lab_8\Lab_8\Lab_8.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.30

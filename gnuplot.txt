@@ -1,0 +1,19 @@
+plot \
+ "Dane_d.txt" using 1:2 with lines title "x=0 progresive 2p (double)" smooth bezier,\
+ "Dane_d.txt" using 1:3 with lines title "x=0 progresive 3p (double)" smooth bezier,\
+ "Dane_d.txt" using 1:4 with lines title "x=pi/4 progresive 2p (double)" smooth bezier,\
+ "Dane_d.txt" using 1:5 with lines title "x=pi/4 central (double)" smooth bezier ,\
+ "Dane_d.txt" using 1:6 with lines title "x=pi/4 back 2p (double)" smooth bezier ,\
+ "Dane_d.txt" using 1:7 with lines title "x=pi/2 back 2p (double)" smooth bezier ,\
+ "Dane_d.txt" using 1:8 with lines title "x=pi/2 back 3p (double)" smooth bezier ,\
+
+
+
+plot \
+ "Dane_d.txt" using 1:2 with lines title "x=0 progresywna 2p (double)" ,\
+ "Dane_d.txt" using 1:3 with lines title "x=0 progresywna 3p (double)" ,\
+ "Dane_d.txt" using 1:4 with lines title "x=pi/4 progresywna 2p (double)" ,\
+ "Dane_d.txt" using 1:5 with lines title "x=pi/4 centralna (double)" ,\
+ "Dane_d.txt" using 1:6 with lines title "x=pi/4 wsteczna 2p (double)" ,\
+ "Dane_d.txt" using 1:7 with lines title "x=pi/2 wsteczna 2p (double)" ,\
+ "Dane_d.txt" using 1:8 with lines title "x=pi/2 wsteczna 3p (double)"
